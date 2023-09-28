@@ -1,0 +1,100 @@
+|fulladder_4bits
+Cin => fulladder:FA1.Cin
+x[0] => fulladder:FA1.x
+x[1] => fulladder:FA2.Cin
+x[2] => fulladder:FA3.Cin
+x[3] => fulladder:FA4.Cin
+y[0] => fulladder:FA1.y
+y[0] => fulladder:FA2.x
+y[0] => fulladder:FA3.x
+y[0] => fulladder:FA4.x
+y[1] => ~NO_FANOUT~
+y[2] => ~NO_FANOUT~
+y[3] => ~NO_FANOUT~
+s[0] << fulladder:FA1.s
+s[1] << fulladder:FA2.s
+s[2] << fulladder:FA3.s
+s[3] << fulladder:FA4.s
+Cout << fulladder:FA4.Cout
+
+
+|fulladder_4bits|fulladder:FA1
+Cin => process_0.IN0
+Cin => process_0.IN0
+Cin => process_0.IN0
+Cin => process_0.IN0
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder_4bits|fulladder:FA2
+Cin => process_0.IN0
+Cin => process_0.IN0
+Cin => process_0.IN0
+Cin => process_0.IN0
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder_4bits|fulladder:FA3
+Cin => process_0.IN0
+Cin => process_0.IN0
+Cin => process_0.IN0
+Cin => process_0.IN0
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fulladder_4bits|fulladder:FA4
+Cin => process_0.IN0
+Cin => process_0.IN0
+Cin => process_0.IN0
+Cin => process_0.IN0
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+x => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+y => process_0.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

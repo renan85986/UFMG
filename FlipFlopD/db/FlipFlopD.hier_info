@@ -1,0 +1,10 @@
+|FlipFlopD
+clock => s.IN0
+clock => r.IN0
+D => s.IN1
+D => r.IN1
+reset => ~NO_FANOUT~
+Q <> Q
+Qi <> Qi
+
+

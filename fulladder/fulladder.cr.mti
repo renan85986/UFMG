@@ -1,0 +1,11 @@
+C:/Users/actdigital/Documents/UFMG/LSD_23.2/Aula_5_22_09/fulladder/fulladder_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/actdigital/Documents/UFMG/LSD_23.2/Aula_5_22_09/fulladder/fulladder_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity fulladder_tb
+-- Compiling architecture teste of fulladder_tb
+
+} {} {}}
